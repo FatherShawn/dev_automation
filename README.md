@@ -1,1 +1,9 @@
-# dev_automation
+# Development Automation with Composer, Robo and Docker
+
+Drupal 8 is changing the culture of our development community with concepts such as "proudly invented elsewhere," and "get off the island." How do we actually do that? And how do we deploy the result? What is the workflow if we are using continuous integration?
+
+We use three technologies to address these questions with our development teams. Composer, the PHP package manager, gives us access to over 150,000 PHP packages from the wider PHP community and all the modules on drupal.org.  Robo is an open source task runner built in PHP and led by Greg Anderson, Michael Bodnarchuk, and Moshe Weitzman. Robo is used in Drush 9 and Pantheon's Terminus. Docker allows the creation of a lightweight, portable, set of services for both local development and continuous integration.
+
+Composer has an event system which reacts to common developer tasks. Composer's event system and Robo power Docker based local development, setup, and continuous integration at Digital Pulp. This session will examine how we integrate these tools. Attendees should be willing to use a command line interface to manage their project. After the session you will know how to install Composer and use it to manage Drupal modules, other PHP libraries, and javascript dependencies. You will also learn how to create and customize workflows using Robo. All of this will be explored in the context of Ballast, the tool we created for our team which automates development workflow from start to finish.
+
+There are other Docker solutions for Drupal such as Docksal and Docker4Drupal. You could use what you will learn in this session to wire those into Composer if they better meet your needs.  There are other task runners, such as Ansible, but Ansible is written in Python.  Our goal with Ballast is to abstract away the complexities so there is only one command to get started yet the workflow logic can be adjusted using Drupal skills.
