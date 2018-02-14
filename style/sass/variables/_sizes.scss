@@ -1,0 +1,10 @@
+$slide_width: 700px;
+$slide_height: 700px;
+/* This is a major third scale */
+$text_up_one: 1.25em;
+$text_up_two: 1.25 * $text_up_one;
+$text_up_three: 1.25 * $text_up_two;
+$text_up_four: 1.25 * $text_up_three;
+$text_down_one: 1em / 1.25;
+$text_down_two: $text_down_one / 1.25;
+$text_down_three: $text_down_two / 1.25;

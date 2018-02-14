@@ -1,0 +1,20 @@
+div#cache-contexts {
+  ul#overview {
+    margin-bottom: 0;
+  }
+  div#contexts {
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+    font-size: $text_down_two;
+    ul {
+      list-style: none;
+      font-family: monospace, serif;
+      _font-family: 'courier new', monospace;
+      margin: 0;
+    }
+  }
+}
